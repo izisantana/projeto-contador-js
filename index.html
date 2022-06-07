@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=">
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>Contador</title>
+</head>
+    <body class="texto">
+        <h1>CONTADOR</h1>
+        <p> clique nos botões para alterar o valor</p>
+        <div id="counter">
+            <button class="subtrair" name="subtrair" onclick="decrement()">-</button>
+            <span class= "currentNumber" id="currentNumber">0</span>
+            <button class="somar" name="adicionar" onclick="increment()">+</button>
+        </div>
+        <div id="zeraContador">
+            <button class="resetButton" name="reset" onclick="zeraContador()">reset</button>
+        </div>
+        <script src="assets/js/scripts.js"></script>
+    </body>
+</html>
